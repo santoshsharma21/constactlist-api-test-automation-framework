@@ -5,7 +5,7 @@
     <classes>
       <class name="com.contactslist.api.tests.UserApiTests">
         <methods>
-          <include name="getUserProfile" invocation-numbers="0"/>
+          <include name="deleteUser" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.contactslist.api.tests.UserApiTests -->
     </classes>

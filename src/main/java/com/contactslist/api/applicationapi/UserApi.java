@@ -18,12 +18,12 @@ public class UserApi {
 //		return HttpRequest.post(Endpoints.ADD_USER, payload);
 //	}
 
-	public static Response post(boolean addUser, boolean logIn, Object payload) {
+	public static Response post(boolean addUser, boolean login, Object payload) {
 		Response response = null;
 
 		if (addUser == true) {
 			response = HttpRequest.post(Endpoints.ADD_USER, payload);
-		} else if (logIn) {
+		} else if (login) {
 			response = HttpRequest.post(Endpoints.LOGIN_USER, payload);
 		}
 		return response;
@@ -40,5 +40,8 @@ public class UserApi {
 	public static Response patch(String token, Object payload) {
 		return HttpRequest.patch(Endpoints.UPDATE_USER, token, payload);
 	}
-
+	
+	public static Response delete(String token) {
+		return HttpRequest.delete(Endpoints.DELETE_USER, token);
+	}
 }

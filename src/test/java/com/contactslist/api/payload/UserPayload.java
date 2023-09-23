@@ -18,11 +18,11 @@ public class UserPayload {
 	private static String newEmail = faker.internet().emailAddress();
 	private static String newPassword = faker.internet().password();
 	
+	private static String updatedFname = faker.name().firstName();
 	private static String updatedLname = faker.name().lastName();
-	private static String updatedPassword = faker.internet().password();
 	
 	private static String loginEmail = newEmail;
-	private static String loginPassword = updatedPassword;
+	private static String loginPassword = newPassword;
 	
 	public static User newUserPayload() {
 		return User.builder()
@@ -34,8 +34,8 @@ public class UserPayload {
 	
 	public static User userUpdatePayload() {
 		return User.builder()
-				.lastName(updatedLname)
-				.password(updatedPassword).build();
+				.firstName(updatedFname)
+				.lastName(updatedLname).build();
 	}
 	
 	public static User userLoginPayload() {
