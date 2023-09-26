@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="42.52" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="A:\ApiTestingProjects\contactslist.api\target\test-classes;A:\ApiTestingProjects\contactslist.api\target\classes;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Santosh Sharma\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Santosh Sharma\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Santosh Sharma\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Santosh Sharma\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Santosh Sharma\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Santosh Sharma\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Santosh Sharma\.m2\repository\org\json\json\20220924\json-20220924.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\Santosh Sharma\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Santosh Sharma\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Santosh Sharma\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Santosh Sharma\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Santosh Sharma\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Santosh Sharma\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Santosh Sharma\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Santosh Sharma\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Santosh Sharma\AppData\Local\Temp\surefire593944089147210062\surefirebooter529927570153419419.jar C:\Users\Santosh Sharma\AppData\Local\Temp\surefire593944089147210062 2023-09-26T20-54-58_843-jvmRun1 surefire12490040021325900181tmp surefire_015795139781592514430tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="A:\ApiTestingProjects\contactslist.api\target\test-classes;A:\ApiTestingProjects\contactslist.api\target\classes;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Santosh Sharma\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Santosh Sharma\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Santosh Sharma\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Santosh Sharma\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Santosh Sharma\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Santosh Sharma\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Santosh Sharma\.m2\repository\org\json\json\20220924\json-20220924.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\Santosh Sharma\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Santosh Sharma\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Santosh Sharma\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Santosh Sharma\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Santosh Sharma\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Santosh Sharma\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Santosh Sharma\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Santosh Sharma\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Santosh Sharma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="A:\ApiTestingProjects\contactslist.api"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Santosh Sharma\AppData\Local\Temp\surefire593944089147210062\surefirebooter529927570153419419.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="user.name" value="Santosh Sharma"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Santosh Sharma\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SANTOS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.3.1"/>
+    <property name="user.dir" value="A:\ApiTestingProjects\contactslist.api"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\anaconda3\condabin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts;C:\Program Files\Python39;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Notepad++;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\apache-maven-3.8.5\bin;C:\Program Files\dotnet;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules;C:\gradle-8.1.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Santosh Sharma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\Santosh Sharma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Santosh Sharma\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;.;C:\Program Files\Java\jre1.8.0_251\bin;C:\Users\Santosh Sharma\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="addNewUser[org.testng.TestRunner@333d4a8c](1)" classname="com.contactslist.api.tests.UserApiTests" time="24.324">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Meghann",
+    "lastName": "Parker",
+    "email": "rafael.lehner@gmail.com",
+    "password": "i5wtbq6cnl9e4tm"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTEyZjdmMzVlZDFkYzAwMTNlOGUzZWYiLCJpYXQiOjE2OTU3NDE5Mzl9.9YH8XUCh0HuSNiGRftgqnRcil3Gg9E9wt-5hK7LbKJU; Max-Age=684; Path=/; Expires=Tue, 26 Sep 2023 15:37:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 287
+Etag: W/"11f-tWBaFiZejMTMfJT7/x/YcAPsHyA"
+Date: Tue, 26 Sep 2023 15:25:39 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "6512f7f35ed1dc0013e8e3ef",
+        "firstName": "Meghann",
+        "lastName": "Parker",
+        "email": "rafael.lehner@gmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTEyZjdmMzVlZDFkYzAwMTNlOGUzZWYiLCJpYXQiOjE2OTU3NDE5Mzl9.9YH8XUCh0HuSNiGRftgqnRcil3Gg9E9wt-5hK7LbKJU"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getUserProfile[org.testng.TestRunner@333d4a8c](1)" classname="com.contactslist.api.tests.UserApiTests" time="1.824">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTEyZjdmMzVlZDFkYzAwMTNlOGUzZWYiLCJpYXQiOjE2OTU3NDE5Mzl9.9YH8XUCh0HuSNiGRftgqnRcil3Gg9E9wt-5hK7LbKJU
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 118
+Etag: W/"76-TflbulhkUQzjbGEFybTSwen0Nqc"
+Date: Tue, 26 Sep 2023 15:25:47 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "6512f7f35ed1dc0013e8e3ef",
+    "firstName": "Meghann",
+    "lastName": "Parker",
+    "email": "rafael.lehner@gmail.com",
+    "__v": 1
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser[org.testng.TestRunner@333d4a8c](1)" classname="com.contactslist.api.tests.UserApiTests" time="1.466">
+    <system-out><![CDATA[Request method:	PATCH
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTEyZjdmMzVlZDFkYzAwMTNlOGUzZWYiLCJpYXQiOjE2OTU3NDE5Mzl9.9YH8XUCh0HuSNiGRftgqnRcil3Gg9E9wt-5hK7LbKJU
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Andre",
+    "lastName": "Fay"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 113
+Etag: W/"71-azAnPSgug6e4ZPCsCgzhH6aOTns"
+Date: Tue, 26 Sep 2023 15:25:48 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "6512f7f35ed1dc0013e8e3ef",
+    "firstName": "Andre",
+    "lastName": "Fay",
+    "email": "rafael.lehner@gmail.com",
+    "__v": 1
+}
+]]></system-out>
+  </testcase>
+  <testcase name="userLogout[org.testng.TestRunner@333d4a8c](1)" classname="com.contactslist.api.tests.UserApiTests" time="1.279">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTEyZjdmMzVlZDFkYzAwMTNlOGUzZWYiLCJpYXQiOjE2OTU3NDE5Mzl9.9YH8XUCh0HuSNiGRftgqnRcil3Gg9E9wt-5hK7LbKJU
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Date: Tue, 26 Sep 2023 15:25:50 GMT
+Content-Length: 0
+Via: 1.1 vegur
+]]></system-out>
+  </testcase>
+  <testcase name="userLogin" classname="com.contactslist.api.tests.UserApiTests" time="1.253">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "rafael.lehner@gmail.com",
+    "password": "i5wtbq6cnl9e4tm"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTEyZjdmMzVlZDFkYzAwMTNlOGUzZWYiLCJpYXQiOjE2OTU3NDE5NTF9.U3TRFODTOrBrCeKCtv-Vkbm9UaGavWELyPiW-YNWEPo; Max-Age=36000; Path=/; Expires=Wed, 27 Sep 2023 01:25:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 282
+Etag: W/"11a-ANKww1x57JIHwts5Sq73oKJ5OaQ"
+Date: Tue, 26 Sep 2023 15:25:51 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "6512f7f35ed1dc0013e8e3ef",
+        "firstName": "Andre",
+        "lastName": "Fay",
+        "email": "rafael.lehner@gmail.com",
+        "__v": 3
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTEyZjdmMzVlZDFkYzAwMTNlOGUzZWYiLCJpYXQiOjE2OTU3NDE5NTF9.U3TRFODTOrBrCeKCtv-Vkbm9UaGavWELyPiW-YNWEPo"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[org.testng.TestRunner@333d4a8c](1)" classname="com.contactslist.api.tests.UserApiTests" time="1.26">
+    <failure message="expected [200] but found [401]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at com.contactslist.api.tests.UserApiTests.deleteUser(UserApiTests.java:101)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTEyZjdmMzVlZDFkYzAwMTNlOGUzZWYiLCJpYXQiOjE2OTU3NDE5Mzl9.9YH8XUCh0HuSNiGRftgqnRcil3Gg9E9wt-5hK7LbKJU
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+Etag: W/"20-l84Ae8oPqxLFOfh6GyOldXOyOfM"
+Date: Tue, 26 Sep 2023 15:25:52 GMT
+Via: 1.1 vegur
+
+{
+    "error": "Please authenticate."
+}
+]]></system-out>
+  </testcase>
+</testsuite>

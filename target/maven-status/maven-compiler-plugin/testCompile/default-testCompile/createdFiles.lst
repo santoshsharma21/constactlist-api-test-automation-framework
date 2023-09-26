@@ -1,0 +1,5 @@
+com\contactslist\api\pojos\User$UserBuilder.class
+com\contactslist\api\pojos\User.class
+com\contactslist\api\tests\UserApiTests.class
+com\contactslist\api\payload\UserPayload.class
+com\contactslist\api\pojos\Contacts.class

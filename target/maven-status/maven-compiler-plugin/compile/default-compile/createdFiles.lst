@@ -1,0 +1,8 @@
+com\contactslist\api\routes\Endpoints.class
+com\contactslist\api\utilities\TestUtilities.class
+com\contactslist\api\extentreport\ReportManager.class
+com\contactslist\api\extentreport\ListenerClass.class
+com\contactslist\api\extentreport\ReportLogger.class
+com\contactslist\api\restutilities\SpecBuilder.class
+com\contactslist\api\applicationapi\UserApi.class
+com\contactslist\api\restutilities\HttpRequest.class

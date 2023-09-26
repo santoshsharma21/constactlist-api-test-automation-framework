@@ -70,6 +70,16 @@ public class UserApiTests {
 		Assert.assertEquals(TestUtilities.getStringFromJsonObj(response, "lastName"), updatePayload.getLastName());
 	}
 	
+	@Test(priority = 3)
+	public void userLogout(ITestContext context) {
+		// get token
+		String token = (String) context.getAttribute("token");
+		// patch request
+		Response response = UserApi.post(token);
+		// validate response
+		Assert.assertEquals(response.getStatusCode(), 200);
+	}
+	
 	@Test(priority = 4)
 	public void userLogin() {
 		// get payload
@@ -79,16 +89,6 @@ public class UserApiTests {
 		// validate response
 		Assert.assertEquals(response.getStatusCode(), 200);
 		Assert.assertEquals(TestUtilities.getStringFromInnerJsonObj(response, "user", "email"), loginPayload.getEmail());
-	}
-	
-	@Test(priority = 3)
-	public void userLogout(ITestContext context) {
-		// get token
-		String token = (String) context.getAttribute("token");
-		// patch request
-		Response response = UserApi.post(token);
-		// validate response
-		Assert.assertEquals(response.getStatusCode(), 200);
 	}
 	
 	@Test(priority = 5)
